@@ -78,6 +78,25 @@
             margin: 0;
             opacity: 0.95;
           }
+          .repo-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+          }
+          
+          .repo-list li {
+            margin-bottom: 12px;
+          }
+          
+          .repo-list a {
+            font-weight: 600;
+            display: block;
+          }
+          
+          .repo-list span {
+            font-size: 14px;
+            color: #555;
+          }
   </style>
 </head>
 <body>
@@ -101,10 +120,19 @@
     <div class="grid">
       <section class="card">
         <h2>Code & Repositories <span class="tag">GitHub</span></h2>
-        <ul>
-          <li><a href="https://github.com/YOURORG/SICCME-core">SICCME-core</a> – core analysis repo</li>
-          <li><a href="https://github.com/YOURORG/SICCME-data">SICCME-data</a> – data pipelines</li>
-          <li><a href="https://github.com/YOURORG/SICCME-utils">SICCME-utils</a> – helper functions</li>
+        <ul class="repo-list">
+          <li>
+            <a href="https://github.com/kholsman/IPCCAtlas2R">IPCCAtlas2R</a>
+            <span>IPCC data + maps for Ecosystem Overviews</span>
+          </li>
+          <li>
+            <a href="https://github.com/kholsman/Tipping-Points">Tipping Points</a>
+            <span>2023 SICCME workshop materials</span>
+          </li>
+          <li>
+            <a href="https://github.com/kholsman/WKCLIMAD">WKCLIMAD</a>
+            <span>ICES climate-aware advice workshop</span>
+          </li>
         </ul>
       </section>
 
